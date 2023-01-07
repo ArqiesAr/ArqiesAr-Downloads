@@ -16,13 +16,8 @@ function App() {
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
         <li class="nav-item">
-        <Link class="btn btn-dark" to="/">Home</Link>
-        </li>
-        <li class="nav-item">
-        <prep> </prep>
-        </li>
-        <li class="nav-item">
-        <Link class="btn btn-dark" to="Downloads">Downloads</Link>
+        <Link class="btn btn-dark text-white" to="/">Home</Link>
+        <Link class="btn btn-dark text-white" to="Downloads">Downloads</Link>
         </li>
     </ul>
     </div>
