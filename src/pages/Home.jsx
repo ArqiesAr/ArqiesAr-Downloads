@@ -8,6 +8,7 @@ import Cards from "./CARDS";
 const Home = () => {
   return (
     <div class="">
+      <title>Sahib's Applications</title>
       <div class="btn-group d-flex" role="group" aria-label="Basic example">
       <a class="btn-secondary btn" href="https://github.com/Blackysh" target="_blank">Github</a>
       <a class="btn-secondary btn" href="https://www.youtube.com/@sahibb" target="_blank">Youtube</a>

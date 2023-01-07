@@ -10,7 +10,9 @@ import { home } from "./pages/Home";
 import { downloads } from "./pages/Downloads";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
     <BrowserRouter>
+    <title>Sahib's Applications</title>
     <App />
     </BrowserRouter>
     
