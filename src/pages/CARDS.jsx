@@ -47,7 +47,7 @@ const Cards = () => {
     <h5 class="card-title">WEBSITE: Sahib's Applications</h5>
     <p class="card-text">THIS WEBSITE :/</p>
     <li class="btn-group">
-    <a href="https://codeload.github.com/Blackysh/applications-list-website/zip/refs/heads/master" class="btn btn-primary">Download</a>
+    <a href="https://objects.githubusercontent.com/github-production-release-asset-2e65be/586148258/d9be2cf8-420f-4b70-bb02-34df9f1a15d9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230107T080248Z&X-Amz-Expires=300&X-Amz-Signature=60c49ff48a906d395060218a703d98e5d7ec44f5db93feaec7c50ae5cb762d4e&X-Amz-SignedHeaders=host&actor_id=100060676&key_id=0&repo_id=586148258&response-content-disposition=attachment%3B%20filename%3DBUILD.zip&response-content-type=application%2Foctet-stream" class="btn btn-primary">Download</a>
     <a href="https://github.com/Blackysh/applications-list-website" target="_blank" class="btn btn-info">Github</a>
     </li>
   </div>
