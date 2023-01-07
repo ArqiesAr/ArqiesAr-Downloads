@@ -41,6 +41,17 @@ const Cards = () => {
     </li>
   </div>
 </div>
+
+<div class="card bg-dark">
+  <div class="card-body">
+    <h5 class="card-title">Sahib's Applications</h5>
+    <p class="card-text">THIS WEBSITE :/</p>
+    <li class="btn-group">
+    <a href="https://codeload.github.com/Blackysh/applications-list-website/zip/refs/heads/master" class="btn btn-primary">Download</a>
+    <a href="https://github.com/Blackysh/applications-list-website" target="_blank" class="btn btn-primary">Github</a>
+    </li>
+  </div>
+</div>
 </li>
       </div>
     );}
