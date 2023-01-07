@@ -11,7 +11,7 @@ function App() {
   return (
     <router>
     <title>Sahib's Applications</title>
-    <div class="bg-image text-white" style={{"background-image": `url(${backgrounde})`, minHeight: '100vh', minWidth: "100"}}>
+    <div class="bg-image text-white" style={{"background-image": `url(${backgrounde})`, minHeight: '100vh', minWidth: "100vw"}}>
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg" data-bs-theme="dark">
     <div class="container-fluid d-flex align-items-center">
     <a class="navbar-brand" >Sahib's Applications</a>
