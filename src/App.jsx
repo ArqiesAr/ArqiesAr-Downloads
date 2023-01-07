@@ -11,8 +11,8 @@ function App() {
   return (
     <router>
     <title>Sahib's Applications</title>
-    <div class="text-white">
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg" data-bs-theme="dark">
+    <div class="text-white" style={{minWidth: "1000"}}>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg" data-bs-theme="dark" s>
     <div class="container-fluid d-flex align-items-center">
     <a class="navbar-brand" >Sahib's Applications</a>
     <div class="collapse navbar-collapse" id="navbarNav">
