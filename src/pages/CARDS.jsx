@@ -29,7 +29,7 @@ const Cards = () => {
     <li class="d-flex align-items-start mb-1 gap-1">
     <a href="https://codeload.github.com/Blackysh/Remote-Control-Via-Discord/zip/refs/heads/main" class="btn btn-primary">Download</a>
     <a href="https://github.com/Blackysh/Remote-Control-Via-Discord" target="_blank" class="btn btn-info">Github</a>
-    <a href="https://youtube.com/@sahibb" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
+    <a href="https://www.youtube.com/watch?v=VQK_wKtwSkA" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
     </li>
   </div>
 </div>
@@ -40,7 +40,7 @@ const Cards = () => {
     <li class="d-flex align-items-start mb-1 gap-1">
     <a href="https://github.com/Blackysh/afs-apt-flatpak-snap/releases/tag/v1" class="btn btn-primary">Download</a>
     <a href="https://github.com/Blackysh/afs-apt-flatpak-snap" target="_blank" class="btn btn-info">Github</a>
-    <a href="https://youtube.com/@sahibb" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
+    <a href="https://www.youtube.com/watch?v=MvRxPc7FYJw" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
     </li>
   </div>
 </div>
