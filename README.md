@@ -1,4 +1,4 @@
-# A Website for my application s made using React
+# A Website for my applications made using React
 Website for applications i make.     
 LINK : https://sahib.vercel.app
 
