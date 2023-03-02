@@ -5,7 +5,7 @@ import { BrowserRouter, Router, Routes, Route, Link} from 'react-router-dom';
 import Home from "./pages/Home";
 import Downloads from "./pages/Downloads";
 import backgrounde from "./pages/images/bg.jpg";
-
+import Freejc from "./pages/Freejc";
 
 function App() {
   return (
@@ -40,7 +40,7 @@ function App() {
     <Routes>
         <Route path='*' element={<Home/>} />
         <Route path='JCPPolicy' element={<Downloads/>} />
-
+        <Route path='JCPPolicyfree' element={<Freejc/>} />
 
     </Routes>
     </div>
