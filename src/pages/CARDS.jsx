@@ -10,6 +10,18 @@ const Cards = () => {
     return (
       <div class="text-white p-4 ">
  <li class="d-flex flex-column gap-2">
+
+ <div class="card bg-dark bg-opacity-75">
+  <div class="card-body">
+    <h5 class="card-title">Jumpcutter Android (Coming Soon)</h5>
+    <p class="card-text">Jumpcutter at 5x made for android</p>
+    <li class="d-flex align-items-start mb-1 gap-1">
+    <a href="https://github.com/Blackysh/" class="btn btn-primary">Download</a>
+    <a href="https://www.youtube.com/@sahibb" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
+    </li>
+  </div>
+</div>
+
  <div class="card bg-dark bg-opacity-75">
   <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
