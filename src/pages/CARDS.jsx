@@ -13,7 +13,7 @@ const Cards = () => {
 
  <div class="card bg-dark bg-opacity-75">
   <div class="card-body">
-    <h5 class="card-title">Jumpcutter Android </h5>
+    <h5 class="card-title">Jumpcutter Android (InDev)</h5>
     <p class="card-text">Jumpcutter at 5x made for android</p>
     <li class="d-flex align-items-start mb-1 gap-1">
     <a href="https://blackysh.itch.io/" class="btn btn-primary">Download / Buy</a>
