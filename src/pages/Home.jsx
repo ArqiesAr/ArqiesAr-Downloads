@@ -11,6 +11,7 @@ import clogo from "./c.png";
 import javalogo from "./java.png"
 import javascripte from "./js.png";
 import { BrowserRouter, Router, Routes, Route, Link} from 'react-router-dom';
+
 const Home = () => {
   return (
     <div class="">
@@ -18,7 +19,7 @@ const Home = () => {
       <div class="btn-group d-flex" role="group" aria-label="Basic example" >
       </div> 
       <div class="d-flex justify-content-center flex-column p-5">
-      <h1 class="display-2 text-center text-info">
+      <h1 id="info" class="display-2 text-center text-info">
        <strong> <b> Hi, I am Sahib! </b> </strong>
       </h1> 
       <p class="display-5 text-center"><em>
@@ -33,6 +34,9 @@ const Home = () => {
       </div>
      
       
+
+
+
 <div class="d-flex flex-wrap justify-content-center gap-10 ">
 
 
@@ -69,10 +73,10 @@ const Home = () => {
 
   <li class="d-flex flex-column gap-2">
   <Link class="rounded-full btn btn-danger" to="/Downloads" >Projects / Downloads</Link>
+  <Link class="rounded-full btn btn-danger" to="/Hire" >Hire me for your project</Link>
   <a class="rounded-full btn btn-primary" href="https://discord.com/users/772047297961525269" target="_blank" >Discord</a>
   <a class="rounded-full btn btn-primary" href="https://github.com/blackysh" target="_blank" >Github</a>
   <a class="rounded-full btn btn-primary" href="https://youtube.com/@sahibb" target="_blank" >Youtube</a>
-  
   </li>
 </figure>
       

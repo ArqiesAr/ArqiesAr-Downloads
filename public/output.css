@@ -9,10 +9,6 @@ body {
   overflow-x: hidden
 }
 
-html {
-  background: url(bg.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
 
 body, html {
   height: 100%;

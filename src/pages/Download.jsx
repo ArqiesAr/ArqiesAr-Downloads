@@ -8,11 +8,6 @@ import Cards from "./CARDS"
 const Download = () => {
     return (
         <div>
-
-
-
-
-
             <Cards />
         </div>
 

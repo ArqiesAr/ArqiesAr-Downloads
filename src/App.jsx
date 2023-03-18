@@ -6,33 +6,54 @@ import Downloads from "./pages/Downloads";
 import backgrounde from "./pages/images/bg.jpg";
 import Freejc from "./pages/Freejc";
 import Download from "./pages/Download";
+import Hires from './pages/hires';
 import logo from "./logopfp.png"
+
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = 0
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
 function App() {
   return (
     <router>
     <title>Sahib's Applications</title>
     <div class="text-white">
     
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg ml-auto" data-bs-theme="dark" >
+    <nav id="navbar" class="navbar navbar-dark bg-dark navbar-fixed-top  navbar-expand-lg ml-auto" data-bs-theme="dark">
     <div class="container-fluid d-flex align-items-center">
     
-    <a class="navbar-brand text-center p-1" href="/">
+    <a class="navbar-brand text-center p-0" href="/">
       <img src={logo} class="d-inline-block align-text-top" width="28" height="28"></img>
-      <b> Sahib</b>
+      <b>&nbsp;Sahib</b>
     </a>
     
     
     <div class="navbar-expand-sm" id="navbarNav">
     
     <ul class="navbar-nav ml-auto ">
-        <li class="nav-item">
+      <li class="nav-item d-flex gap-3">
         <div class="btn-group ">
-      <Link class="btn-dark btn" to="/">Home</Link>
-      <Link class="btn-dark btn" to="/Downloads">Downloads</Link>
-  
-
-      </div>
-        </li> 
+          <Link class="btn-dark btn" to="/">Home</Link>
+          <Link class="btn-dark btn" to="/Downloads">Downloads</Link>
+        </div>
+      
+      <Link className="d-flex " to="/Hire"><button className="rounded-3xl text-slate-50	px-5 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Hire Me </button></Link>
+      </li> 
     </ul>
     </div>
     </div>
@@ -44,7 +65,7 @@ function App() {
         <Route path='JCPPolicy' element={<Downloads/>} />
         <Route path='JCPPolicyfree' element={<Freejc/>} />
         <Route path="Downloads" element={<Download/>} />
-
+        <Route path="Hire" element={<Hires/>} />
     </Routes>
     </div>
     </router>
