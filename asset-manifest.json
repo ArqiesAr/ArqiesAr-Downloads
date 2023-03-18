@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.366d2ed0.css",
+    "main.js": "/react-gh-pages/static/js/main.861b1a62.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bg.jpg": "/react-gh-pages/static/media/bg.5b140bf9a931322ebdce.jpg",
+    "static/media/android.png": "/react-gh-pages/static/media/android.0fdd7b1c4d6433d6b96d.png",
+    "static/media/Script.png": "/react-gh-pages/static/media/Script.c8a50b959ad092ec0a2d.png",
+    "static/media/Desktop.png": "/react-gh-pages/static/media/Desktop.ab449aef94147e3b4df7.png",
+    "static/media/Website.png": "/react-gh-pages/static/media/Website.efd47f9b70819cc5b8df.png",
+    "static/media/Discord.png": "/react-gh-pages/static/media/Discord.f3b14d89021d35b590b7.png",
+    "static/media/logopfp.png": "/react-gh-pages/static/media/logopfp.0b891f35a9e39fdca3b1.png",
+    "static/media/js.png": "/react-gh-pages/static/media/js.57f1722aa0d5af76c735.png",
+    "static/media/c.png": "/react-gh-pages/static/media/c.498d3f658c810a7bc3dc.png",
+    "static/media/java.png": "/react-gh-pages/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/py.png": "/react-gh-pages/static/media/py.ce266f37b78f854ccd48.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.366d2ed0.css.map": "/react-gh-pages/static/css/main.366d2ed0.css.map",
+    "main.861b1a62.js.map": "/react-gh-pages/static/js/main.861b1a62.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-gh-pages/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.366d2ed0.css",
+    "static/js/main.861b1a62.js"
+  ]
+}
