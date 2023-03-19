@@ -34,7 +34,7 @@ function App() {
     <title>Sahib's Applications</title>
     <div class="text-white">
     
-    <nav id="navbar" class="navbar navbar-dark bg-dark navbar-fixed-top  navbar-expand-lg ml-auto" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-dark bg-dark rounded-full bg-opacity-25 navbar-fixed-top shadow-5-strong navbar-expand-lg ml-auto" data-bs-theme="dark">
     <div class="container-fluid d-flex align-items-center">
     
     <a class="navbar-brand text-center p-0" href="/">
@@ -52,7 +52,7 @@ function App() {
           <Link class="btn-dark btn" to="/Downloads">Downloads</Link>
         </div>
       
-      <Link className="d-flex " to="/Hire"><button className="rounded-3xl text-slate-50	px-5 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Hire Me </button></Link>
+      <Link className="d-flex " to="/Hire"><button className="rounded-full text-slate-50	px-5 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Hire Me </button></Link>
       </li> 
     </ul>
     </div>

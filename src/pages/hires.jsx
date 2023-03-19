@@ -35,7 +35,7 @@ const hires = () => {
             
 
 
-                <figure class="d-flex flex-column align-items-center gap-2 drop-shadow-4xl bg-slate-800 rounded-xl p-8 dark:bg-slate-800k bg-opacity-60" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column align-items-center gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Website </strong></h1>
 
                 <img src={websitea} style={{'width': '480px'}}></img>
@@ -43,30 +43,30 @@ const hires = () => {
                 <p class="text-center lead">I will create you a good looking website. Just like this one. Or an entirely different kind of website.</p>
 
                 <li class="d-flex justify-content-center gap-2">
-                <a href="https://www.fiverr.com/share/N615YV"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> ReactJS </button></a>
-                <a href="https://www.fiverr.com/share/N615YV"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Django  </button></a>
+                <a href="https://www.fiverr.com/share/N615YV"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> ReactJS </button></a>
+                <a href="https://www.fiverr.com/share/N615YV"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Django  </button></a>
                 </li>
                 </figure>
 
 
 
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-xl p-8 dark:bg-slate-800k bg-opacity-60" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Desktop Software</strong></h1>
 
                 <img src={Dektop} style={{'width': '480px'}}></img>
                 <p class="text-center lead">I will create you a good looking and well functioning application. I will add whichever features you want and make sure you like the application.</p>
 
                 <li class="d-flex justify-content-center gap-2">
-                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
-                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Java </button></a>
-                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> JavaScript </button></a>
-                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> C#</button></a>
+                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
+                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Java </button></a>
+                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> JavaScript </button></a>
+                <a href="https://www.fiverr.com/share/2dzPdL"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> C#</button></a>
                 
                 </li>
                 </figure>
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-xl p-8 dark:bg-slate-800k bg-opacity-60" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Discord Bot</strong></h1>
 
 
@@ -75,27 +75,27 @@ const hires = () => {
                 <p class="text-center lead">I will create you a custom discord bot with your requested features.</p>
 
                 <li class="d-flex justify-content-center gap-2">
-                <a href="https://www.fiverr.com/share/gEW6jo"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
-                <a href="https://www.fiverr.com/share/gEW6jo"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> JavaScript </button></a>
+                <a href="https://www.fiverr.com/share/gEW6jo"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
+                <a href="https://www.fiverr.com/share/gEW6jo"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> JavaScript </button></a>
 
                 </li>
                 </figure>
 
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-xl p-8 dark:bg-slate-800k bg-opacity-60" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Android App</strong></h1>
 
                 <img src={anroid} style={{'width': '480px'}}></img>
                 <p class="text-center lead">I will create you a custom android application with requested features with any of the languages given below.</p>
 
                 <li class="d-flex justify-content-center gap-2">
-                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python Kivy </button></a>
-                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Java/Kotlin </button></a>
-                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-3xl text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> React Native </button></a>
+                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python Kivy </button></a>
+                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Java/Kotlin </button></a>
+                <a href="https://www.fiverr.com/share/qPLBwZ"><button className="rounded-full text-slate-50 px-3 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> React Native </button></a>
                 </li>
                 </figure>
             
-                <figure class="d-flex flex-column align-items-center gap-2 drop-shadow-4xl bg-slate-800 rounded-xl p-8 dark:bg-slate-800k bg-opacity-60" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column align-items-center gap-2 drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Small Computer Script</strong></h1>
 
                 <img src={scipt} style={{'width': '480px'}}></img>
@@ -103,7 +103,7 @@ const hires = () => {
 
 
                 <li class="d-flex justify-content-center gap-2">
-                <a href="https://www.fiverr.com/share/0RXYQA"><button className="rounded-3xl text-slate-50 px-20 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
+                <a href="https://www.fiverr.com/share/0RXYQA"><button className="rounded-full text-slate-50 px-20 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl"> Python </button></a>
                 </li>
                 </figure>
 
@@ -113,7 +113,7 @@ const hires = () => {
         </div>
         </div>
         
-        <a href="https://www.fiverr.com/users/blackysh/"><button className="rounded-3xl text-slate-50 px-5 ml-1 text-4xl bg-gradient-to-r from-cyan-600 to-blue-400 text-xl text-end justify-content-end " style={{position: 'fixed', bottom: '10px', right: '10px'}}>Hire(Fiverr)</button> </a>
+        <a href="https://www.fiverr.com/users/blackysh/"><button className="rounded-full text-slate-50 px-5 ml-1 text-4xl bg-gradient-to-r from-cyan-600 to-blue-400 text-xl text-end justify-content-end " style={{position: 'fixed', bottom: '10px', right: '10px'}}>Hire(Fiverr)</button> </a>
         </div>
 
 
