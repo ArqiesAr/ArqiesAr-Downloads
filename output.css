@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-image: url(bg.jpg) no-repeat center center fixed;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -14,6 +13,9 @@ body, html {
   height: 100%;
   margin: 0;
   background-image: url(bg.jpg);
+  background-size: fill;                  
+  background-repeat:  repeat;
+  background-position: center center;
 }
 
 /*
