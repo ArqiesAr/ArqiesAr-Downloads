@@ -18,6 +18,7 @@ module.exports = {
       'full': '9999px',
       'large': '12px',
     }
+
   },
   plugins: [],
 }

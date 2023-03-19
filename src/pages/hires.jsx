@@ -35,7 +35,7 @@ const hires = () => {
             
 
 
-                <figure class="d-flex flex-column align-items-center gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column align-items-center gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Website </strong></h1>
 
                 <img src={websitea} style={{'width': '480px'}}></img>
@@ -51,7 +51,7 @@ const hires = () => {
 
 
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Desktop Software</strong></h1>
 
                 <img src={Dektop} style={{'width': '480px'}}></img>
@@ -66,7 +66,7 @@ const hires = () => {
                 </li>
                 </figure>
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Discord Bot</strong></h1>
 
 
@@ -82,7 +82,7 @@ const hires = () => {
                 </figure>
 
 
-                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column gap-2 align-items-center drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Android App</strong></h1>
 
                 <img src={anroid} style={{'width': '480px'}}></img>
@@ -95,7 +95,7 @@ const hires = () => {
                 </li>
                 </figure>
             
-                <figure class="d-flex flex-column align-items-center gap-2 drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-50" style={{width: "40%", minWidth:"480px"}}>
+                <figure class="d-flex flex-column align-items-center gap-2 drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md" style={{width: "40%", minWidth:"480px"}}>
                 <h1 class="display-3 text-center"><strong>Small Computer Script</strong></h1>
 
                 <img src={scipt} style={{'width': '480px'}}></img>

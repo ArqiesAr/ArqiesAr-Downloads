@@ -1,7 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import backgrounde from "./images/bg.jpg"
-import "./bg.css";
 import { ButtonGroup } from "react-bootstrap";
 
 
@@ -9,9 +8,9 @@ import { ButtonGroup } from "react-bootstrap";
 const Cards = () => {
     return (
       <div class="text-white p-5 ">
- <li class="d-flex flex-column gap-2">
+ <li class="d-flex flex-column gap-3">
 
- <div class="card bg-dark bg-opacity-75">
+ <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">Jumpcutter Android (InDev)</h5>
     <p class="card-text">Jumpcutter at 5x made for android</p>
@@ -22,7 +21,7 @@ const Cards = () => {
   </div>
 </div>
 
- <div class="card bg-dark bg-opacity-75">
+ <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
@@ -35,7 +34,7 @@ const Cards = () => {
 </div>
 
 
- <div class="card bg-dark bg-opacity-75">
+ <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body ">
     <h5 class="card-title">CamControl</h5>
     <p class="card-text">Control your Computer using your hands with a camera.</p>
@@ -47,7 +46,7 @@ const Cards = () => {
   </div>
 </div>
         
-<div class="card bg-dark bg-opacity-75">
+<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">Remote Control Via Discord</h5>
     <p class="card-text">Remotely Control your computer by running this discord bot on it.</p>
@@ -58,7 +57,7 @@ const Cards = () => {
     </li>
   </div>
 </div>
-<div class="card bg-dark bg-opacity-75">
+<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">AFS</h5>
     <p class="card-text">Command line tool to install and remove apt/flatpak/snap packages from one place.</p>
@@ -70,7 +69,7 @@ const Cards = () => {
   </div>
 </div>
 
-<div class="card bg-dark bg-opacity-75">
+<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">WEBSITE: Sahib's Applications</h5>
     <p class="card-text">THIS WEBSITE :/</p>

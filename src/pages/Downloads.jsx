@@ -1,7 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import backgrounde from "./images/bg.jpg"
-import "./bg.css";
 import { ButtonGroup, Card } from "react-bootstrap";
 import Cards from "./CARDS"
 
