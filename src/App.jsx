@@ -48,7 +48,7 @@ function App() {
     <ul class="navbar-nav ml-auto ">
       <li class="nav-item d-flex gap-3">
         <div class="btn-group ">
-          <Link class="btn-dark btn bg-dark bg-opacity-25" to="/">Home</Link>
+          <Link class="btn-dark btn bg-dark bg-opacity-25 " to="/">Home</Link>
           <Link class="btn-dark btn bg-dark bg-opacity-25" to="/Downloads">Downloads</Link>
         </div>
       
