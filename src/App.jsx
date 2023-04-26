@@ -34,7 +34,7 @@ function App() {
     <title>Sahib's Applications</title>
     <div class="text-white">
     
-    <nav id="navbar" class="navbar navbar-dark bg-dark rounded-full bg-opacity-25 navbar-fixed-top shadow-5-strong navbar-expand-lg ml-auto" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-dark bg-dark rounded-full bg-opacity-50 navbar-fixed-top shadow-5-strong navbar-expand-lg ml-auto" data-bs-theme="dark">
     <div class="container-fluid d-flex align-items-center">
     
     <a class="navbar-brand text-center p-0" href="/">
