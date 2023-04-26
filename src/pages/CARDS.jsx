@@ -12,17 +12,6 @@ const Cards = () => {
 
  <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
-    <h5 class="card-title">Jumpcutter Android (InDev)</h5>
-    <p class="card-text">Jumpcutter at 5x made for android</p>
-    <li class="d-flex align-items-start mb-1 gap-1">
-    <a href="https://blackysh.itch.io/" class="btn btn-primary">Download / Buy</a>
-    <a href="https://www.youtube.com/@sahibb" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
-    </li>
-  </div>
-</div>
-
- <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
-  <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
     <li class="d-flex align-items-start mb-1 gap-1">
