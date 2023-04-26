@@ -80,6 +80,19 @@ const Cards = () => {
     </li>
   </div>
 </div>
+
+
+ <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+  <div class="card-body">
+    <h5 class="card-title">Jumpcutter Android (BROKEN/Unsupported)</h5>
+    <p class="card-text">Jumpcutter at 5x made for android (BROKEN/Unsupported)</p>
+    <li class="d-flex align-items-start mb-1 gap-1">
+    <a href="https://blackysh.itch.io/" class="btn btn-danger">Download / Buy</a>
+    </li>
+  </div>
+</div>
+
+
 </li>
       </div>
     );}
