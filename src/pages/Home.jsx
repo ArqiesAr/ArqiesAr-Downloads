@@ -42,21 +42,21 @@ const Home = () => {
 
 
 
-<figure class="d-flex flex-column drop-shadow-4xl rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
-<li class="d-flex gap-5 mr-auto">
-  <img class="w-20 h-20 rounded-full mr-auto" src={pythonlogo} ></img>
+<figure class="d-flex flex-column drop-shadow-4xl gap-1 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
+<li class="d-flex gap-3 mr-auto">
+  <img class="w-20 h-21 rounded-full mr-auto" src={pythonlogo} ></img>
   <h1 class="display-4 text-center"><strong>Python</strong></h1></li>
   
-<li class="d-flex gap-5 mr-auto">
+<li class="d-flex gap-3 mr-auto">
   <img class="w-20 h-20 rounded-full mr-auto" src={javascripte} ></img>
   <h1 class="display-4 text-center"><strong>JavaScript</strong></h1></li>
 
-<li class="d-flex gap-5 mr-auto">
+<li class="d-flex gap-3 mr-auto">
   <img class="w-20 h-20 rounded-full mr-auto" src={javalogo} ></img>
   <h1 class="display-4 text-center"><strong>Java</strong></h1></li>
 
-<li class="d-flex gap-5 mr-auto">
-  <img class="w-20 h-20 rounded-full mr-auto" src={clogo} ></img>
+<li class="d-flex gap-3 mr-auto">
+  <img class="w-20 h-15 rounded-full mr-auto" src={clogo} ></img>
   <h1 class="display-4 text-center"><strong>C Sharp (C#)</strong></h1></li>
 
 
