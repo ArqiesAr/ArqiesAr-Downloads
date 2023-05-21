@@ -51,9 +51,7 @@ function App() {
           <Link class="btn-dark btn bg-dark bg-opacity-25 " to="/">Home</Link>
           <Link class="btn-dark btn bg-dark bg-opacity-25" to="/Downloads">Downloads</Link>
         </div>
-      
-      <Link className="d-flex " to="/Hire"><button className="rounded-full text-slate-50	px-5 ml-1 bg-gradient-to-r from-blue-900 to-blue-600 text-xl bg-opacity-20"> Hire Me </button></Link>
-      </li> 
+            </li> 
     </ul>
     </div>
     </div>
