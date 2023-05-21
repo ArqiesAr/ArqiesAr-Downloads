@@ -73,7 +73,6 @@ const Home = () => {
 
   <li class="d-flex flex-column gap-2">
   <Link class="rounded-full btn btn-danger" to="/Downloads" >Projects / Downloads</Link>
-  <Link class="rounded-full btn btn-danger" to="/Hire" >Hire me for your project</Link>
   <a class="rounded-full btn btn-primary" href="https://discord.com/users/772047297961525269" target="_blank" >Discord</a>
   <a class="rounded-full btn btn-primary" href="https://github.com/blackysh" target="_blank" >Github</a>
   <a class="rounded-full btn btn-primary" href="https://youtube.com/@sahibb" target="_blank" >Youtube</a>
