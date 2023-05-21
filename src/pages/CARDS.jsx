@@ -12,6 +12,21 @@ const Cards = () => {
 
  <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
+    <h5 class="card-title">Video2Short</h5>
+    <p class="card-text">Convert a video to a 9:16 short easily!</p>
+    <li class="d-flex align-items-start mb-1 gap-1">
+    <a href="https://github.com/Blackysh/Video2Short/releases/tag/v1" class="btn btn-primary">Download</a>
+    <a href="https://github.com/Blackysh/Video2Short" target="_blank" class="btn btn-info">Github</a>
+    <a href="https://www.youtube.com/@sahibb" target="_blank" class="btn btn-danger align-self-center ms-auto">Tutorial</a>
+    </li>
+  </div>
+</div>
+
+
+
+
+ <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+  <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
     <li class="d-flex align-items-start mb-1 gap-1">
