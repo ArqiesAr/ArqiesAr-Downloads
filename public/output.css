@@ -10,12 +10,13 @@ body {
 
 
 body, html {
-  height: 100%;
+  height: auto;
   margin: 0;
   background-image: url(bg.jpg);
-  background-size: fill;                  
-  background-repeat: repeat;
-  background-position: center center;
+  background-size: cover;                  
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
 /*
