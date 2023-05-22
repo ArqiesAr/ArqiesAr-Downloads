@@ -4,10 +4,11 @@
     outline-color: black;
     width: 27%;
     min-width: 300px;
-    justify-self: center;
-    align-self: center;
+    justify-self: left;
+    align-self: left;
     transition-duration: 150ms;
     transition-property: all;
+    margin-left: 1%;
 }
 
 .serechbar:hover {
