@@ -1,0 +1,45 @@
+.serechbar {
+    outline-width: 1px;
+    outline-style: auto;
+    outline-color: black;
+    width: 27%;
+    min-width: 300px;
+    justify-self: center;
+    align-self: center;
+    transition-duration: 150ms;
+    transition-property: all;
+}
+
+.serechbar:hover {
+    width: 30%;
+    min-width: 530px;
+    transition-duration: 150ms;
+    transition-property: all;
+}
+
+.animals{
+
+   } 
+
+.scale-105 {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+
+#searchbar{}
+
+li {
+    list-style: none;
+}
+
+.cord {
+
+    
+}
+
+.hide {
+    display: none;
+    transition-duration: 150ms;
+    transition-property: all;
+}

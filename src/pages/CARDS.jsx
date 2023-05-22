@@ -2,15 +2,45 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import backgrounde from "./images/bg.jpg"
 import { ButtonGroup } from "react-bootstrap";
+import './bg.css';
+import { getValue } from "@testing-library/user-event/dist/utils";
+
+
+function search() {
+
+  var i
+  let input = document.getElementById('search').value
+  input = input.toLowerCase();
+  console.log(input)
+  let x = document.querySelectorAll(".cord")
+  console.log(x)
+
+  for (i = 0 ; i < x.length; i++){
+    var contains = x[i].innerHTML.toLowerCase().includes(input)
+
+    x[i].classList.toggle('hide', !contains )
+    
+  }
+
+
+}
 
 
 
 const Cards = () => {
     return (
-      <div class="text-white p-5 ">
- <li class="d-flex flex-column gap-3">
+      <div class="text-white p-4 d-flex flex-column justify-content-center gap-3">
 
- <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+
+
+  <input name="search" id="search" data-search onChange={search} class='serechbar transition drop-shadow-2xl ring-white	outline-gray-900 bg-slate-800 rounded-lg p-2 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md' placeholder={"Search applications"}></input>
+
+
+
+<li id='list' class="d-flex flex-column gap-3">
+
+<li class='cord'>
+ <div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">Video2Short</h5>
     <p class="card-text">Convert a video to a 9:16 short easily!</p>
@@ -21,11 +51,11 @@ const Cards = () => {
     </li>
   </div>
 </div>
+</li>
 
 
-
-
- <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+<li class='cord'>
+ <div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
@@ -36,9 +66,11 @@ const Cards = () => {
     </li>
   </div>
 </div>
+</li>
 
 
- <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+<li class='cord'>
+ <div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body ">
     <h5 class="card-title">CamControl</h5>
     <p class="card-text">Control your Computer using your hands with a camera.</p>
@@ -49,8 +81,10 @@ const Cards = () => {
     </li>
   </div>
 </div>
-        
-<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+</li>
+
+<li class='cord'>
+<div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">Remote Control Via Discord</h5>
     <p class="card-text">Remotely Control your computer by running this discord bot on it.</p>
@@ -61,7 +95,10 @@ const Cards = () => {
     </li>
   </div>
 </div>
-<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+</li>
+
+<li class='cord'>
+<div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">AFS</h5>
     <p class="card-text">Command line tool to install and remove apt/flatpak/snap packages from one place.</p>
@@ -72,8 +109,11 @@ const Cards = () => {
     </li>
   </div>
 </div>
+</li>
 
-<div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+
+<li class='cord'>
+<div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">WEBSITE: Sahib's Applications</h5>
     <p class="card-text">THIS WEBSITE :/</p>
@@ -84,9 +124,11 @@ const Cards = () => {
     </li>
   </div>
 </div>
+</li>
 
 
- <div class="gap-2  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
+<li class='cord'>
+ <div class="gap-2 animals transition hover:backdrop-blur-xl drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md">
   <div class="card-body">
     <h5 class="card-title">Jumpcutter Android (BROKEN/Unsupported)</h5>
     <p class="card-text">Jumpcutter at 5x made for android (BROKEN/Unsupported)</p>
@@ -95,10 +137,17 @@ const Cards = () => {
     </li>
   </div>
 </div>
+</li>
+
+
 
 
 </li>
+
+
+
       </div>
     );}
+
 
 export default Cards

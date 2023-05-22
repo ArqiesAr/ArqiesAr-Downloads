@@ -42,7 +42,7 @@ const Home = () => {
 
 
 
-<figure class="d-flex flex-column drop-shadow-4xl gap-1 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
+<figure class="d-flex flex-column transition hover:backdrop-blur-md drop-shadow-4xl gap-1 hover:scale-100 scale-95 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
 <li class="d-flex gap-3 mr-auto">
   <img class="w-20 h-21 rounded-full mr-auto" src={pythonlogo} ></img>
   <h1 class="display-4 text-center"><strong>Python</strong></h1></li>
@@ -66,7 +66,7 @@ const Home = () => {
 
 
 
-<figure class="d-flex flex-column gap-2 drop-shadow-4xl  rounded-lg p-8 bg-opacity-10 bg-slate-200 backdrop-blur-sm	" style={{width: "480"}}>
+<figure class="d-flex flex-column  gap-2 drop-shadow-4xl transition hover:backdrop-blur-md hover:scale-100 scale-95 rounded-lg p-8 bg-opacity-10 bg-slate-200 backdrop-blur-sm	" style={{width: "480"}}>
   <li class="d-flex gap-5 mr-auto">
   <img class="w-20 h-20 rounded-full mr-auto" src={logo}></img>
   <h1 class="display-3 text-center"><strong>Sahib</strong></h1></li>
