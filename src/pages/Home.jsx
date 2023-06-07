@@ -11,24 +11,66 @@ import clogo from "./c.png";
 import javalogo from "./java.png"
 import javascripte from "./js.png";
 import { BrowserRouter, Router, Routes, Route, Link} from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 const Home = () => {
+  const [mousePosition, setMousePosition] = useState({
+    x: 0,
+    y: 0
+  });
+  const [cursorVariant, setCursorVariant] = useState("default");
+
+
+  useEffect(() => {
+    const mouseMove = e => {
+      setMousePosition({
+        x: e.clientX,
+        y: e.clientY
+      })
+    }
+
+    window.addEventListener("mousemove", mouseMove);
+
+    return () => {
+      window.removeEventListener("mousemove", mouseMove);
+    }
+  }, []);
+
+  const variants = {
+    default: {
+      x: mousePosition.x - 20,
+      y: mousePosition.y - 20,
+    },
+    text: {
+      height: 150,
+      width: 150,
+      x: mousePosition.x - 105,
+      y: mousePosition.y - 105,
+      backgroundColor: "#d2d2d9",
+      mixBlendMode: "difference"
+    }
+  }
+
+  const textEnter = () => setCursorVariant("text");
+  const textLeave = () => setCursorVariant("default");
+
   return (
-    <div class="">
+    <div class="home">
       <title>Sahib's Applications</title>
       <div class="btn-group d-flex" role="group" aria-label="Basic example" >
       </div> 
       <div class="d-flex justify-content-center flex-column p-5">
       <h1 id="info" class="display-2 text-center text-info">
-       <strong> <b> Hi, I am Sahib! </b> </strong>
+       <strong> <b onMouseEnter={textEnter} onMouseLeave={textLeave}> Hi, I am Sahib! </b> </strong>
       </h1> 
-      <p class="display-5 text-center"><em>
+      <p onMouseEnter={textEnter} onMouseLeave={textLeave} class="display-5 text-center"><em>
       Hey there, my name is Sahib and I'm a programmer/developer!
       </em></p>
-      <p class="display-5 text-center"><em>
+      <p onMouseEnter={textEnter} onMouseLeave={textLeave} class="display-5 text-center"><em>
       I mostly create desktop applications and websites, 
       </em></p>
-      <p class="display-5 text-center"><em>
+      <p onMouseEnter={textEnter} onMouseLeave={textLeave} class="display-5 text-center"><em>
       but I can develop other types of software. Like  bots, mobile apps, servers, etc. 
       </em></p>
       </div>
@@ -42,7 +84,7 @@ const Home = () => {
 
 
 
-<figure class="d-flex flex-column transition hover:backdrop-blur-md drop-shadow-4xl gap-1 hover:scale-100 scale-95 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
+<figure onMouseEnter={textEnter} onMouseLeave={textLeave} class="d-flex flex-column transition hover:backdrop-blur-md drop-shadow-4xl gap-1 hover:scale-100 scale-95 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-sm" style={{width: "480"}}>
 <li class="d-flex gap-3 mr-auto">
   <img class="w-20 h-21 rounded-full mr-auto" src={pythonlogo} ></img>
   <h1 class="display-4 text-center"><strong>Python</strong></h1></li>
@@ -66,7 +108,7 @@ const Home = () => {
 
 
 
-<figure class="d-flex flex-column  gap-2 drop-shadow-4xl transition hover:backdrop-blur-md hover:scale-100 scale-95 rounded-lg p-8 bg-opacity-10 bg-slate-200 backdrop-blur-sm	" style={{width: "480"}}>
+<figure onMouseEnter={textEnter} onMouseLeave={textLeave} class="d-flex flex-column  gap-2 drop-shadow-4xl transition hover:backdrop-blur-md hover:scale-100 scale-95 rounded-lg p-8 bg-opacity-10 bg-slate-200 backdrop-blur-sm	" style={{width: "480"}}>
   <li class="d-flex gap-5 mr-auto">
   <img class="w-20 h-20 rounded-full mr-auto" src={logo}></img>
   <h1 class="display-3 text-center"><strong>Sahib</strong></h1></li>
@@ -81,7 +123,11 @@ const Home = () => {
       
 </div>
 
-
+<motion.div
+        className='cursor'
+        variants={variants}
+        animate={cursorVariant}
+      /> 
     </div>
 
 
