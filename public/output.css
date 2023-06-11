@@ -45,6 +45,12 @@ body {
 5. Use the user's configured `sans` font-feature-settings by default.
 */
 
+
+html, body {
+  background-color: #111827;
+  background-size: 100%;
+}
+
 html {
   line-height: 1.5;
   /* 1 */
