@@ -9,14 +9,6 @@ body {
 }
 
 
-html,body {
-  background-image: url(bg.jpg);
-  background-size: cover;                  
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  background-attachment: fixed;
-}
 
 /*
 ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com

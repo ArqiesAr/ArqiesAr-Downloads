@@ -118,14 +118,15 @@ li {
     color: #DEDEDE;
     width: 70px;
     transition-duration: 500ms;
+    filter: invert(0.85);
     
 }
 
 
 .testcolor:hover {
-    color: #DEDEDE;
     width: 100px;
     transition-duration: 500ms;
+    filter: invert(0.9);
 }
 
 .paragf {
