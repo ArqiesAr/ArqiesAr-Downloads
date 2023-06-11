@@ -2,20 +2,71 @@
     outline-width: 1px;
     outline-style: auto;
     outline-color: black;
-    width: 27%;
+    width: 90%;
     min-width: 300px;
-    justify-self: left;
-    align-self: left;
+    justify-self: center;
+    align-self: center;
     transition-duration: 150ms;
     transition-property: all;
     margin-left: 1%;
 }
 
 .serechbar:hover {
-    width: 30%;
+    width: 95%;
     min-width: 530px;
     transition-duration: 150ms;
     transition-property: all;
+}
+
+
+.dl-page {
+    align-self: center;
+    min-width: 480px;
+}
+
+.dl-page:hover{
+    
+}
+
+.downlitle{
+    margin-top: 100px;
+}
+
+.blender{
+    mix-blend-mode:difference;
+    align-self: center;
+    width: 50%;
+    opacity: 80%;
+    transition-duration: 500ms;
+    min-width: 425px;
+}
+
+.textkid {
+    width: 100%;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    transition-duration: 300ms;
+}
+
+.textkid:hover{
+    font-size: 55px;
+}
+
+.blender:hover {
+    opacity: 110%;
+    enable-background: 0pc;
+    transition-duration: 500ms;
+    width: 55%;
+    min-width: 450px;
+}
+
+.blenderX{
+    opacity: 80%;
+}
+
+.blenderX:hover{
+    opacity: 100%;
 }
 
 .animals{
@@ -52,7 +103,7 @@ li {
 }
 
 .cursor {
-    background-color: #333;
+    background-color: #DEDEDE;
     height: 32px;
     width: 32px;
     border-radius: 50%;
@@ -62,3 +113,31 @@ li {
     pointer-events: none;
     mix-blend-mode: difference;
   }
+
+.testcolor {
+    color: #DEDEDE;
+    width: 70px;
+    transition-duration: 500ms;
+    
+}
+
+
+.testcolor:hover {
+    color: #DEDEDE;
+    width: 100px;
+    transition-duration: 500ms;
+}
+
+.paragf {
+    text-align: center;
+    font-weight: 559;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.hesaidthat {
+    text-align: right;
+    font-weight: 550;
+    margin-right: 3%;
+}
