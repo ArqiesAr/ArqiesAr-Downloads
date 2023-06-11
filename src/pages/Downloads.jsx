@@ -33,7 +33,7 @@ const Downloads = () => {
 
 </div>
 
-<div class='d-flex flex-column justify-content-center'>
+<div class='d-flex flex-column justify-content-center gap-2'>
 <li class="d-flex flex-wrap gap-4 flex-warp align-items-center justify-items-center justify-content-center gap-0">
     
     <a href="https://discord.com/users/772047297961525269" target="_blank" ><img class="testcolor"src={dc} ></img></a>
@@ -49,9 +49,10 @@ const Downloads = () => {
     <a href="https://twitter.com/Blackysh21" target="_blank"><img class="testcolor"src={twit} ></img></a>
     
     <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
-  </li>
+</li>
+  <p className="fs-4 align-self-center ">Go Down for Projects / Downloads</p>
 </div>
-<p className="fs-4">Scroll Down for Projects / Downloads</p>
+
 
 </div>
 
