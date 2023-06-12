@@ -70,8 +70,17 @@
 }
 
 .animals{
-
+    transition-duration: 400ms;
+    min-width: 400px;
+    max-width: 500px;
+    min-height: 180px;
+    max-height: 180px;
    } 
+
+.animals:hover{
+    transform: scale(1.05, 1.05);
+    transition-duration: 400ms;
+}
 
 .scale-105 {
     backface-visibility: hidden;
@@ -85,10 +94,11 @@ li {
     list-style: none;
 }
 
-.cord {
 
-    
+.cords {
+
 }
+
 
 .home {
     cursor: none;
@@ -98,9 +108,16 @@ li {
 
 .hide {
     display: none;
-    transition-duration: 150ms;
+    transition-duration: 1500ms;
     transition-property: all;
 }
+
+.cardlol {
+    transition-duration: 1500ms;
+    transition-property: all;
+}
+
+
 
 .cursor {
     background-color: #DEDEDE;

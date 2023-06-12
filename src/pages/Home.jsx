@@ -66,10 +66,10 @@ const Home = () => {
       <div class="btn-group d-flex m-3 justify-content-center" role="group" aria-label="Basic example" >
       </div> 
       
+
+
 <Downloads/>
      
-
-
 <figure class="d-flex dl-page flex-column p-4 bg-opacity-100 bg-gray-800 backdrop-blur-sm" style={{maxWidth: '100%', minWidth:'100%'}}>
 
 
