@@ -29,7 +29,7 @@ function search() {
 
 const Cards = () => {
     return (
-      <div class="text-white p-4 d-flex flex-column justify-content-center align-content-center gap-3" style={{minHeight: '100%'}}>
+      <div class="text-white p-4 d-flex flex-column justify-content-center align-content-center gap-3" style={{minHeight: '95%'}}>
 
 
 
