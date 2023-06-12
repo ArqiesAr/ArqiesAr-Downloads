@@ -9,16 +9,12 @@ const Freejc = () => {
   return (
   
   //privacy policy paragraph under
-<div class="text-bg-light p-3">
+<div class="p-2 text-center d-flex flex-column align-items-center justify-content-center ">
 
-This app uses Google Admob, the for data collected by Google, read their Privacy Policy here: (https://policies.google.com/privacy?hl=en-US).
-No Other data is accessed by us or the application except Mobile Storage.
-Application Data. If you use our application(s), we also may collect the following information if you choose to provide us with access or permission:
-Mobile Device Access. We may request access or permission to certain features from your mobile device, including your mobile device's storage, and other features. If you wish to change our access or permissions, you may do so in your device's settings.
-
-
-
-
+<p className="paragf fs-3 text-center  fst-italic" style={{maxWidth: '80%'}}> 
+      Sahib is one of the best programmers i know due to his exceptional skills, extensive knowledge, and the unwavering dedication.
+  His passion for programming and development to excellence make him a highly sought-after programmer, capable of delivering innovative and high-quality solutions to complex problems.   </p>
+  <p className="hesaidthat fs-2 justify-self-right">~ Dark</p>
 
 </div>
 

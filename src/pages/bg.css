@@ -141,4 +141,25 @@ li {
     text-align: right;
     font-weight: 550;
     margin-right: 3%;
+    margin-left: 80%;
+    justify-self: right;
+
+}
+
+.downarrow {
+    max-width: 55px;
+    width: 55px;
+    min-width: 55px;
+    filter: invert(1);
+    align-self: center;
+    justify-self: center;
+}
+
+.downArrow {
+    justify-self: center;
+    align-self: center;
+    position: fixed;
+    bottom: 6%;
+    top: 94%
+    
 }

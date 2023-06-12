@@ -24,10 +24,10 @@ const Downloads = () => {
 
 <div class='d-flex flex-wrap justify-content-center'>
 <div class='d-flex flex-wrap justify-content-center npfpab  align-items-center gap-10'>
-<img className='pfp' src={pfp}></img>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_" target="_blank"><img className='pfp' src={pfp}></img></a>
 <div className="d-flex flex-column justify-content-center ">
 <h1 class='name'>Sahib / Blackysh</h1>
-<p className="aboutme">Hi, I am Sahib, also known as Blackysh. I am a software developer who lives in India. I am constantly learning new stuff and like working on new and unique projects. </p>
+<p className="aboutme text-center ">Hi, I am Sahib, also known as Blackysh. I am a software developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things. </p>
 </div>
 </div>
 
@@ -50,7 +50,6 @@ const Downloads = () => {
     
     <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
 </li>
-  <p className="fs-4 align-self-center ">Go Down for Projects / Downloads</p>
 </div>
 
 

@@ -15,9 +15,9 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Download from './Download'
 import hello from './inort.png'
-
+import Freejc from "./Freejc";
 import Downloads from './Downloads'
-
+import downarrow from './images/downarrow.png'
 
 const Home = () => {
   const [mousePosition, setMousePosition] = useState({
@@ -61,7 +61,7 @@ const Home = () => {
   const textLeave = () => setCursorVariant("default");
 
   return (
-    <div class="d-flex flex-column bg-gray-900 justify-content-center">
+    <div class="d-flex flex-column bg-gray-900 gap-3 justify-content-center">
       <title>Sahib's Applications</title>
       <div class="btn-group d-flex m-3 justify-content-center" role="group" aria-label="Basic example" >
       </div> 
@@ -69,24 +69,21 @@ const Home = () => {
 <Downloads/>
      
 
-<div class='d-flex align-items-center justify-content-center'>
 
-<figure class="d-flex dl-page flex-column gap-2 p-8 bg-opacity-100 bg-gray-800 backdrop-blur-sm" style={{maxWidth: '100%', minWidth:'100%'}}>
-
-      <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="paragf fs-3"> 
-      Sahib is one of the best programmers i know due to his exceptional skills, extensive knowledge, and the unwavering dedication.
-  His passion for programming and development to excellence make him a highly sought-after programmer, capable of delivering innovative and high-quality solutions to complex problems. </p>
-  <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="hesaidthat fs-2">~ Dark</p>
+<figure class="d-flex dl-page flex-column p-4 bg-opacity-100 bg-gray-800 backdrop-blur-sm" style={{maxWidth: '100%', minWidth:'100%'}}>
 
 
+
+<Freejc/>
 
 
 
 
       </figure>
-      </div>
 <div class="d-flex flex-wrap flex-column align-content-center justify-content-center gap-2  ">
 
+
+<a class='downArrow'><img class='downarrow' src={downarrow}></img></a>
 
 
 <figure class="d-flex dl-page flex-column gap-2 p-8 bg-opacity-100 bg-gray-900 backdrop-blur-sm	" style={{maxWidth: "100%", minWidth:'100%'}}>
