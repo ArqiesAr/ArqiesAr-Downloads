@@ -40,7 +40,7 @@ const Cards = () => {
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
 <li class='cord'>
- <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400 " style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">Video2Short</h5>
     <p class="card-text">Convert a video to a 9:16 short easily!</p>
