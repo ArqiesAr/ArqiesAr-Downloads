@@ -44,11 +44,11 @@ const Downloads = () => {
     <a href="https://pinterest.com/blackyshhi/" target="_blank"><img class="testcolor"src={pin} ></img></a>
     <a href="https://www.reddit.com/user/No-Priority1503/" target="_blank"><img class="testcolor"src={red} ></img></a>
   
-  
-    <a href="https://www.youtube.com/@Sahibb" target="_blank"><img class="testcolor"src={youtube} ></img></a>
-    <a href="https://twitter.com/Blackysh21" target="_blank"><img class="testcolor"src={twit} ></img></a>
-    
     <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
+
+    <a href="https://twitter.com/Blackysh21" target="_blank"><img class="testcolor"src={twit} ></img></a>
+    <a href="https://www.youtube.com/@Sahibb" target="_blank"><img class="testcolor"src={youtube} ></img></a>
+
 </li>
 </div>
 
