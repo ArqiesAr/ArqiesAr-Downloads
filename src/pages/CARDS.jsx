@@ -33,14 +33,14 @@ const Cards = () => {
 
 
 
-  <input name="search" id="search" data-search onChange={search} class='serechbar transition drop-shadow-2xl ring-white	outline-gray-900 bg-slate-800 rounded-lg p-2 dark:bg-slate-800k bg-opacity-10 bg-slate-200 backdrop-blur-md' placeholder={"Search applications"}></input>
+  <input name="search" id="search" data-search onChange={search} class='serechbar transition drop-shadow-2xl ring-white	outline-gray-900 bg-slate-800 rounded-lg p-2 dark:bg-slate-800k bg-opacity-10 bg-slate-200' placeholder={"Search applications"}></input>
 
 
 
 <li id='list' class="d-flex flex-wrap justify-content-center gap-3">
 
 <li class='cord'>
- <div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 " style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200 " style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">Video2Short</h5>
     <p class="card-text">Convert a video to a 9:16 short easily!</p>
@@ -55,7 +55,7 @@ const Cards = () => {
 
 
 <li class='cord'>
- <div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
@@ -70,7 +70,7 @@ const Cards = () => {
 
 
 <li class='cord'>
- <div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body ">
     <h5 class="card-title">CamControl</h5>
     <p class="card-text">Control your Computer using your hands with a camera.</p>
@@ -84,7 +84,7 @@ const Cards = () => {
 </li>
 
 <li class='cord'>
-<div class="gap-2 animals  drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">Remote Control Via Discord</h5>
     <p class="card-text">Remotely Control your computer by running this discord bot on it.</p>
@@ -98,7 +98,7 @@ const Cards = () => {
 </li>
 
 <li class='cord'>
-<div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">AFS</h5>
     <p class="card-text">Command line tool to install and remove apt/flatpak/snap packages from one place.</p>
@@ -113,7 +113,7 @@ const Cards = () => {
 
 
 <li class='cord'>
-<div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">WEBSITE: Sahib's Applications</h5>
     <p class="card-text">THIS WEBSITE :/</p>
@@ -128,7 +128,7 @@ const Cards = () => {
 
 
 <li class='cord'>
- <div class="gap-2 animals drop-shadow-4xl bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200"style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-200"style={{'minWidth':'480px', 'maxWidth':'480px'}}>
   <div class="card-body">
     <h5 class="card-title">Jumpcutter Android (BROKEN/Unsupported)</h5>
     <p class="card-text">Jumpcutter at 5x made for android (BROKEN/Unsupported)</p>
