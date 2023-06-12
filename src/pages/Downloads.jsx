@@ -19,7 +19,7 @@ import mail from './images/mail.png'
 const Downloads = () => {
   return (
   
-<div class="d-flex justify-content-center flex-column align-items-center p-6 gap-10">
+<div class="d-flex justify-content-center flex-column align-items-center p-6 gap-1">
 
 
 <div class='d-flex flex-wrap justify-content-center'>
@@ -33,8 +33,8 @@ const Downloads = () => {
 
 </div>
 
-<div class='d-flex flex-column justify-content-center gap-2'>
-<li class="d-flex flex-wrap gap-4 flex-warp align-items-center justify-items-center justify-content-center gap-0">
+<div class='d-flex flex-column justify-content-center gap-0'>
+<li class="d-flex medialist flex-wrap gap-4 flex-warp align-items-center justify-items-center justify-content-center gap-0">
     
     <a href="https://discord.com/users/772047297961525269" target="_blank" ><img class="testcolor"src={dc} ></img></a>
     
