@@ -41,7 +41,6 @@ const Downloads = () => {
     <a href="mailto: blackyshhi@gmail.com" target="_blank" ><img class="testcolor"src={mail} ></img></a>
     <a href="https://github.com/blackysh" target="_blank" ><img class="testcolor"src={git} ></img></a>
     <a href="https://www.instagram.com/54h1b/" target="_blank"><img class="testcolor"src={insta} ></img></a>
-    <a href="https://pinterest.com/blackyshhi/" target="_blank"><img class="testcolor"src={pin} ></img></a>
     <a href="https://www.reddit.com/user/No-Priority1503/" target="_blank"><img class="testcolor"src={red} ></img></a>
   
     <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
