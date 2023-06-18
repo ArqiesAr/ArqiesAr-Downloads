@@ -46,7 +46,7 @@ const Downloads = () => {
   
     <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
 
-    <a href="https://twitter.com/Blackysh21" target="_blank"><img class="testcolor"src={twit} ></img></a>
+    <a href="https://twitter.com/Bl4ckysh" target="_blank"><img class="testcolor"src={twit} ></img></a>
     <a href="https://www.youtube.com/@Sahibb" target="_blank"><img class="testcolor"src={youtube} ></img></a>
 
 </li>
