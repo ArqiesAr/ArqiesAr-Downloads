@@ -38,7 +38,7 @@ const Downloads = () => {
     
     <a href="https://discord.gg/zxKNWk8ANE" target="_blank" ><img class="testcolor"src={dc} ></img></a>
     
-    <a href="mailto: blackyshhi@gmail.com" target="_blank" ><img class="testcolor"src={mail} ></img></a>
+    <a href="mailto: sahib@sahib.page" target="_blank" ><img class="testcolor"src={mail} ></img></a>
     <a href="https://github.com/blackysh" target="_blank" ><img class="testcolor"src={git} ></img></a>
     <a href="https://www.instagram.com/54h1b/" target="_blank"><img class="testcolor"src={insta} ></img></a>
     <a href="https://www.reddit.com/user/No-Priority1503/" target="_blank"><img class="testcolor"src={red} ></img></a>
