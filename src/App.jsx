@@ -82,10 +82,6 @@ function App() {
 
     <Routes>
         <Route path='*' element={<Home/>} />
-        <Route path='JCPPolicy' element={<Downloads/>} />
-        <Route path='JCPPolicyfree' element={<Freejc/>} />
-        <Route path="Downloads" element={<Download/>} />
-        <Route path="Hire" element={<Hires/>} />
     </Routes>
 
     </div>
