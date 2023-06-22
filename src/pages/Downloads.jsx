@@ -24,7 +24,7 @@ const Downloads = () => {
 
 <div class='d-flex flex-wrap justify-content-center'>
 <div class='d-flex flex-wrap justify-content-center npfpab  align-items-center gap-10'>
-<a href="https://sahib.page" target="_blank"><img className='pfp' src={pfp}></img></a>
+<a href="https://arqies.com" target="_blank"><img className='pfp' src={pfp}></img></a>
 <div className="d-flex flex-column justify-content-center ">
 <h1 class='name'>Arqies</h1>
 <p className="aboutme text-center ">Hi, I am Arqies. I am a software developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things. </p>
