@@ -26,8 +26,8 @@ const Downloads = () => {
 <div class='d-flex flex-wrap justify-content-center npfpab  align-items-center gap-10'>
 <a href="https://sahib.page" target="_blank"><img className='pfp' src={pfp}></img></a>
 <div className="d-flex flex-column justify-content-center ">
-<h1 class='name'>Sahib / Blackysh</h1>
-<p className="aboutme text-center ">Hi, I am Sahib, also known as Blackysh. I am a software developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things. </p>
+<h1 class='name'>Arqies</h1>
+<p className="aboutme text-center ">Hi, I am Arqies. I am a software developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things. </p>
 </div>
 </div>
 
@@ -38,15 +38,14 @@ const Downloads = () => {
     
     <a href="https://discord.gg/zxKNWk8ANE" target="_blank" ><img class="testcolor"src={dc} ></img></a>
     
-    <a href="mailto: sahib@sahib.page" target="_blank" ><img class="testcolor"src={mail} ></img></a>
-    <a href="https://github.com/blackysh" target="_blank" ><img class="testcolor"src={git} ></img></a>
-    <a href="https://www.instagram.com/54h1b/" target="_blank"><img class="testcolor"src={insta} ></img></a>
-    <a href="https://www.reddit.com/user/No-Priority1503/" target="_blank"><img class="testcolor"src={red} ></img></a>
+    <a href="mailto: contact@arqies.com" target="_blank" ><img class="testcolor"src={mail} ></img></a>
+    <a href="https://github.arqies.com" target="_blank" ><img class="testcolor"src={git} ></img></a>
+    <a href="https://instagram.arqies.com" target="_blank"><img class="testcolor"src={insta} ></img></a>
   
-    <a href="https://open.spotify.com/user/31f5d2yg3lc75car3n6rmq22ygqe?si=7547e0241d0c44b2"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
+    <a href="https://spotify.arqies.com"target="_blank" ><img class="testcolor"src={spoti} ></img></a>
 
-    <a href="https://twitter.com/Bl4ckysh" target="_blank"><img class="testcolor"src={twit} ></img></a>
-    <a href="https://www.youtube.com/@Sahibb" target="_blank"><img class="testcolor"src={youtube} ></img></a>
+    <a href="https://twitter.arqies.com" target="_blank"><img class="testcolor"src={twit} ></img></a>
+    <a href="https://youtube.arqies.com" target="_blank"><img class="testcolor"src={youtube} ></img></a>
 
 </li>
 </div>
