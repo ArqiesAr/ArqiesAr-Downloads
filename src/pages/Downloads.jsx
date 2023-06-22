@@ -36,7 +36,7 @@ const Downloads = () => {
 <div class='d-flex flex-column justify-content-center gap-0'>
 <li class="d-flex medialist flex-wrap gap-4 flex-warp align-items-center justify-items-center justify-content-center gap-0">
     
-    <a href="https://discord.gg/zxKNWk8ANE" target="_blank" ><img class="testcolor"src={dc} ></img></a>
+    <a href="https://discord.arqies.com" target="_blank" ><img class="testcolor"src={dc} ></img></a>
     
     <a href="mailto: contact@arqies.com" target="_blank" ><img class="testcolor"src={mail} ></img></a>
     <a href="https://github.arqies.com" target="_blank" ><img class="testcolor"src={git} ></img></a>
