@@ -15,23 +15,24 @@ import red from './images/red.png'
 import pin from './images/pin.png'
 import mail from './images/mail.png'
 
-
 const Downloads = () => {
   return (
   
-<div class="d-flex justify-content-center flex-column align-items-center p-6 gap-1">
+<div class="d-flex justify-content-center flex-column align-items-center p-6 gap-">
 
 
-<div class='d-flex flex-wrap justify-content-center'>
-<div class='d-flex flex-wrap justify-content-center npfpab  align-items-center gap-10'>
+<div class='d-flex flex-wrap justify-content-center align-items-center'>
+<div class='d-flex flex-wrap justify-content-center npfpab  align-items-center gap-7'>
 <a href="https://arqies.com" target="_blank"><img className='pfp' src={pfp}></img></a>
 <div className="d-flex flex-column justify-content-center ">
-<h1 class='name'>Arqies</h1>
+<h1 class='name'>Arqies </h1>
 <p className="aboutme text-center ">Hi, I am Arqies. I am a software developer who lives in India. I am constantly learning new things and like working on new and unique projects, while improving and expanding my knowledge of different things. </p>
-</div>
 </div>
 
 </div>
+
+</div>
+
 
 <div class='d-flex flex-column justify-content-center gap-0'>
 <li class="d-flex medialist flex-wrap gap-4 flex-warp align-items-center justify-items-center justify-content-center gap-0">
@@ -48,8 +49,9 @@ const Downloads = () => {
     <a href="https://youtube.arqies.com" target="_blank"><img class="testcolor"src={youtube} ></img></a>
 
 </li>
-</div>
+<a href="https://ko-fi.com/arqies" class='text-white text-center'><button class="donate bg-slate-600 rounded-lg text-white "> Buy a coffee for me  </button></a>
 
+</div>
 
 </div>
 

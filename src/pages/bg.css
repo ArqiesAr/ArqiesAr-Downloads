@@ -82,6 +82,18 @@
     transition-duration: 400ms;
 }
 
+.donate{
+    min-width: 169px;
+    transition-duration: 300ms;
+    width: 5%;
+}
+
+.donate:hover {
+    min-width: 210px;
+    transition-duration: 300ms;
+    width: 5.25%;
+}
+
 .scale-105 {
     backface-visibility: hidden;
     transform: translateZ(0);
