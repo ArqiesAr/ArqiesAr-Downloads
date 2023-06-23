@@ -49,7 +49,6 @@ const Downloads = () => {
     <a href="https://youtube.arqies.com" target="_blank"><img class="testcolor"src={youtube} ></img></a>
 
 </li>
-<a href="https://ko-fi.com/arqies" class='text-white text-center'><button class="donate bg-slate-600 rounded-lg text-white "> Buy a coffee for me  </button></a>
 
 </div>
 
