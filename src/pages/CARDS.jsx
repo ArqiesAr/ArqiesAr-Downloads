@@ -40,19 +40,6 @@ const Cards = () => {
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
 
-
-<li class='cord'>
-<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
-  <div class="card-body">
-    <h5 class="card-title">WEBSITE: This website</h5>
-    <p class="card-text">THIS WEBSITE</p>
-    <li class="d-flex align-items-start mb-1 gap-1">
-    <a href="https://github.com/arqies/arqies.github.io" target="_blank" class="btn btn-dark" style={{width: '100%'}}>Github</a>
-    </li>
-  </div>
-</div>
-</li>
-
 <li class='cord'>
 <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
