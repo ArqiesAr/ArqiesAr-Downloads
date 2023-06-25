@@ -42,7 +42,7 @@ const Cards = () => {
 
 
 <li class='cord'>
-<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">WEBSITE: This website</h5>
     <p class="card-text">THIS WEBSITE</p>
@@ -54,7 +54,7 @@ const Cards = () => {
 </li>
 
 <li class='cord'>
-<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">actNum</h5>
     <p class="card-text">This is a simple script that can be used to remove words (grammer, pronouns,etc.) in your program.</p>
@@ -67,7 +67,7 @@ const Cards = () => {
 
 
 <li class='cord'>
-<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">Pose Angle Detector</h5>
     <p class="card-text">Detects different angles of the body. (Not made for use)</p>
@@ -86,7 +86,7 @@ const Cards = () => {
 <h2 class='name'> Not actively maintained but working/will fix </h2>
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 <li class='cord'>
- <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
@@ -101,7 +101,7 @@ const Cards = () => {
 
 
 <li class='cord'>
- <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body ">
     <h5 class="card-title">CamControl</h5>
     <p class="card-text">Control your Computer using your hands with a camera.</p>
@@ -114,7 +114,7 @@ const Cards = () => {
 </li>
 
 <li class='cord'>
-<div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+<div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">Remote Control Via Discord</h5>
     <p class="card-text">Remotely Control your computer by running this discord bot on it.</p>
@@ -133,7 +133,7 @@ const Cards = () => {
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
 <li class='cord'>
- <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">Video2Short</h5>
     <p class="card-text">Convert a video to a 9:16 short easily!</p>
@@ -147,7 +147,7 @@ const Cards = () => {
 </li>
 
 <li class='cord'>
- <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400"style={{'minWidth':'480px', 'maxWidth':'480px'}}>
+ <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400"style={{'minWidth':'360px', 'maxWidth':'360px'}}>
   <div class="card-body">
     <h5 class="card-title">Jumpcutter Android</h5>
     <p class="card-text">Jumpcutter at 5x made for android</p>
