@@ -29,13 +29,13 @@ function search() {
 
 const Cards = () => {
     return (
-      <div class="text-white p-4 d-flex flex-column justify-content-center align-content-center gap-3" style={{minHeight: '95%'}}>
+      <div class="text-white p-4 d-flex flex-column justify-content-center align-content-center gap-4" style={{minHeight: '95%'}}>
 
 
 
   <input name="search" id="search" data-search onChange={search} class='serechbar transition drop-shadow-2xl ring-white	outline-gray-900 bg-slate-800 rounded-lg p-2 dark:bg-slate-800k bg-opacity-10 bg-slate-200' placeholder={"Search applications"}></input>
 
-<h2 class='name'> Actively Maintained, Updated or Checked  <h6>(please help by reporting issues)</h6> </h2>
+<h2 class='name'> Actively Maintained, Updated or Checked </h2>
 
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
@@ -83,7 +83,7 @@ const Cards = () => {
 
 
 
-<h2 class='name'> Not actively maintained but working/will fix <h6>(if reported as broken)</h6> </h2>
+<h2 class='name'> Not actively maintained but working/will fix </h2>
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 <li class='cord'>
  <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'480px', 'maxWidth':'480px'}}>
@@ -129,7 +129,7 @@ const Cards = () => {
 </li>
 
 
-<h2 class='name'> Broken, Unsupported or Ignored<h6>(This is here for archival purposed only*)</h6> </h2>
+<h2 class='name'> Broken, Unsupported or Ignored <h6>(This is here for archival purposed only*)</h6> </h2>
 <li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
 <li class='cord'>

@@ -61,39 +61,18 @@ const Home = () => {
   const textLeave = () => setCursorVariant("default");
 
   return (
-    <div class="d-flex flex-column bg-gray-900 gap-3 justify-content-center">
+    <div class="d-flex flex-column bgcolor gap-3 justify-content-center">
       <title>Sahib's Applications</title>
       <div class="btn-group d-flex m-3 justify-content-center" role="group" aria-label="Basic example" >
       </div> 
-      
 
-
-<Downloads/>
-     
-<figure class="d-flex dl-page flex-column p-4 bg-opacity-100 bg-gray-800 backdrop-blur-sm" style={{maxWidth: '100%', minWidth:'100%'}}>
-
-
-
-<Freejc/>
-
-
-
-
-      </figure>
-<div class="d-flex flex-wrap flex-column align-content-center justify-content-center gap-2  ">
-
-
-<a class='downArrow'><img class='downarrow' src={downarrow}></img></a>
-
-
-<figure class="d-flex dl-page flex-column gap-2 p-8 bg-opacity-100 bg-gray-900 backdrop-blur-sm	" style={{maxWidth: "100%", minWidth:'100%'}}>
+<figure class="d-flex dl-page flex-column gap-0 p-1 bg-opacity-100 backdrop-blur-sm	" style={{maxWidth: "100%", minWidth:'100%'}}>
   <h1 class="display-3 text-center"><strong>Want to see any of my projects?</strong></h1>
   <Download/>
 </figure>
 </div>
 
 
-    </div>
 
 
   );
