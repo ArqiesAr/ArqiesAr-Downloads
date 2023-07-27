@@ -78,7 +78,6 @@ const Cards = () => {
     <h5 class="card-title">FFmpegKit Python Android</h5>
     <p class="card-text">Run FFmpeg on android using python (kivy)</p>
     <li class="d-flex align-items-start mb-1 gap-1">
-    <a href="https://github.com/arqies/ffmpeg-kit-python/releases/tag/tag" class="btn btn-dark" style={{width: '100%'}}>Download</a>
     <a href="https://github.com/arqies/ffmpeg-kit-python" target="_blank" class="btn btn-dark" style={{width: '100%'}}>Github</a>
     <a href="https://www.youtube.com/watch?v=F8yJwRof948" target="_blank" class="btn btn-dark align-self-center" style={{width: '100%'}}>Tutorial</a>
     </li>
@@ -113,11 +112,6 @@ const Cards = () => {
 </div>
 </li>
 
-</li>
-
-
-<h2 class='name'> Broken, Unsupported or Ignored <h6>(This is here for archival purposed only*)</h6> </h2>
-<li id='list' class="d-flex flex-wrap justify-content-center cardlol gap-4">
 
 <li class='cord'>
  <div class="gap-2 animals bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
@@ -125,7 +119,6 @@ const Cards = () => {
     <h5 class="card-title">Video2Short</h5>
     <p class="card-text">Convert a video to a 9:16 short easily!</p>
     <li class="d-flex align-items-start align-self-bottom  mb-1 gap-1">
-    <a href="https://github.com/arqies/Video2Short/releases/tag/v1" class="btn btn-dark" style={{width: '100%'}}>Download</a>
     <a href="https://github.com/arqies/Video2Short" target="_blank" class="btn btn-dark" style={{width: '100%'}}>Github</a>
     <a href="https://www.youtube.com/@arqies" target="_blank" class="btn btn-dark align-self-center" style={{width: '100%'}}>Tutorial</a>
     </li>
@@ -133,20 +126,10 @@ const Cards = () => {
 </div>
 </li>
 
-<li class='cord'>
- <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400"style={{'minWidth':'360px', 'maxWidth':'360px'}}>
-  <div class="card-body">
-    <h5 class="card-title">Jumpcutter Android</h5>
-    <p class="card-text">Jumpcutter at 5x made for android</p>
-    <li class="d-flex align-items-start mb-1 gap-1">
-    <a href="https://blackysh.itch.io/" class="btn btn-dark" style={{width: '100%'}}>Download / Buy</a>
-    </li>
-  </div>
-</div>
 </li>
 
 
-</li>
+
 
 
 
