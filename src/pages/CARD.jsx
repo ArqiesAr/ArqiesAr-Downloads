@@ -8,7 +8,7 @@ function Card({ name, description }) {
     return (
 
         <li class='cord'>
-        <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px'}}>
+        <div class="gap-2 animals  bg-slate-800 rounded-lg p-8 dark:bg-slate-800k bg-opacity-10 bg-slate-400" style={{'minWidth':'360px', 'maxWidth':'360px', 'maxHeight':'6000px'}}>
           <div class="card-body">
             <h5 class="card-title">{name}</h5>
             <p class="card-text">{description}</p>
