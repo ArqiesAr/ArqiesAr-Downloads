@@ -6,7 +6,7 @@ import { Card } from "./CARD";
 import axios from 'axios';
 
 async function getData(){
-    var response = await fetch('https://api.github.com/users/arqies/repos')
+    var response = await fetch('https://api.github.com/users/ArqiesAr/repos')
 
     var result = await response.json()
     return result
@@ -18,7 +18,7 @@ function CardList() {
     
     useEffect(() => {
         async function fetchData() {
-          const result = await axios.get('https://api.github.com/users/arqies/repos');
+          const result = await axios.get('https://api.github.com/users/ArqiesAr/repos');
           setData(result.data);
         }
         fetchData();
